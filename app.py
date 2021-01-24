@@ -6,6 +6,22 @@ import numpy as np
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
+st.set_page_config(
+        page_title='Problema delle regine',
+        layout='wide',
+        initial_sidebar_state='auto',
+        page_icon='♟',
+    )
+
+hide_streamlit_style = """
+<style>
+MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+
 regine = st.number_input('REGINE', min_value=4 ,step=1)
 
 
