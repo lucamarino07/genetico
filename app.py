@@ -28,7 +28,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.title("RISOLUZIONE DEL PROBLEMA DELLE REGINE UTILIZZANDO UN ALGORITMO GENETICO 🧬")
 st.text("Luca Marino")
 st.text("Data Scientist, Palermo")
-st.markdown("""<hr><p>Il <b>problema delle regine</b> 👑 è un problema che consiste 
+st.markdown("""<hr><p align='justify'>Il <b>problema delle regine</b> 👑 è un problema che consiste 
 nel trovare il modo di posizionare <i>N</i> <b>donne</b> (pezzo degli scacchi ♟) su 
 una scacchiera <i>N</i>x<i>N</i> tali che nessuna di esse possa catturarne un'altra, usando i 
 movimenti standard della regina. Perciò, una soluzione dovrà prevedere che 
