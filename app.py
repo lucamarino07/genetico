@@ -42,8 +42,8 @@ regine = st.number_input('REGINE', min_value=4 ,step=1)
 
 zoom = (regine/regine**2) * 0.4
 
-if regine > 12:
-    st.warning("Il tempo di esecuzione aumenta esponenzialmente all'aumentare del numero di regine")
+if regine >= 12:
+    st.warning(f"Il tempo di esecuzione aumenta esponenzialmente all'aumentare del numero di regine")
 a =st.button('Play')
 if a is True:
     bot.sendMessage(119405630,'Qualcuno ha lanciato il genetico delle regine')
