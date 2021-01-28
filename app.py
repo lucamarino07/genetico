@@ -4,7 +4,9 @@ from test_chess import chess_board, imscatter
 import matplotlib.pyplot as plt
 import numpy as np
 import time
+import telepot
 
+bot = telepot.Bot("1443302756:AAGVBgiA_q00N5Bf3cuao9MsaeT2dmqEqZI")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.set_page_config(
@@ -44,7 +46,7 @@ if regine > 12:
     st.warning("Il tempo di esecuzione aumenta esponenzialmente all'aumentare del numero di regine")
 a =st.button('Play')
 if a is True:
-
+    bot.sendMessage('Qualcuno ha lanciato il genetico delle regine)
     # start_time = time.time()
     soluzione = run_genetico(regine, 100)
 
