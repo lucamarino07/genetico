@@ -46,7 +46,7 @@ if regine > 12:
     st.warning("Il tempo di esecuzione aumenta esponenzialmente all'aumentare del numero di regine")
 a =st.button('Play')
 if a is True:
-    bot.sendMessage('Qualcuno ha lanciato il genetico delle regine)
+    bot.sendMessage('Qualcuno ha lanciato il genetico delle regine')
     # start_time = time.time()
     soluzione = run_genetico(regine, 100)
 
